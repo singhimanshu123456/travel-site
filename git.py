@@ -2,6 +2,8 @@
 from subprocess import call
 
 #Commit Message
+with open("hello.txt" ,"w") as f:
+    f.write("hello")
 commit_message = "Adding sample files"
 
 #Stage the file 
